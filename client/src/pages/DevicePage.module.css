@@ -1,0 +1,33 @@
+.mainPhoto {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.mainPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.mainPhoto:hover {
+    transform: scale(1.05);
+}
+
+.price_cart {
+    margin-top: 70px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.price {
+    margin-right: 15px;
+    color: #f84147;
+    font-size: 36px;
+    font-weight: bolder;
+}
+

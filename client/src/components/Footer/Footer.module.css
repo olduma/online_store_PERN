@@ -1,0 +1,58 @@
+.footerWrapper {
+    background-color: #212529;
+    color: #fff;
+    padding: 25px;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.footerLink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
+}
+
+.footerIcon {
+    margin-right: 10px;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContactLabel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footerContactValue {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.footerHours {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerHoursLabel {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footerHoursValue {
+    font-size: 16px;
+}
+
+.follow{
+    margin-bottom: 15px;
+}

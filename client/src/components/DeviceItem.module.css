@@ -1,0 +1,51 @@
+.card {
+    cursor: pointer;
+    width: 12rem;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    z-index: 999;
+    box-shadow: 0 0 15px 1px rgba(98, 104, 114, 0.5);
+    transition: transform 0.2s ease-in-out;
+}
+
+.image {
+    border-radius: 8px;
+    height: 200px;
+    object-fit: scale-down;
+    background-color: white;
+}
+
+.cardBody {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cardBody:hover {
+    background-color: #f8f9fa;
+}
+
+.ratingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.rating {
+    margin-right: 0.25rem;
+}
+
+.star {
+    margin-top: -0.3rem; /* Add margin-top property to adjust vertical alignment */
+    color: gold;
+}
+
+.cardTitle {
+    color: #3e77aa;
+}
+
+.cardSubtitle {
+    color: red;
+}

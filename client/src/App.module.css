@@ -1,0 +1,5 @@
+.content{
+  max-width: 1440px; /* adjust as needed */
+  margin: 100px auto 80px;
+  min-height: calc(100vh - 165px); /* change 120px to the height of your header */
+}
